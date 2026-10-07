@@ -1,0 +1,665 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 01:54:47 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 15304@LAPTOP-LTTIHKL6
+
+[2026-04-24 01:54:48 #2 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 01:54:48 #3 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 01:54:48 #4 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 01:54:48 #5 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 01:54:48 #6 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 01:54:48 #7 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 01:54:48 #8 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 01:57:43 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 19732@LAPTOP-LTTIHKL6
+
+[2026-04-24 01:57:43 #2 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 01:57:43 #3 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 01:57:43 #4 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 01:57:43 #5 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 01:57:43 #6 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 01:57:43 #7 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 01:57:43 #8 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 01:58:26 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 15488@LAPTOP-LTTIHKL6
+
+[2026-04-24 01:58:26 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 01:58:26 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 01:58:26 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 01:58:26 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 01:58:26 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 01:58:26 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 01:58:26 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 01:58:26 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 01:58:26 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 01:58:26 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 01:58:26 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 01:58:26 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 01:58:26 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 01:58:26 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 01:58:26 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 01:58:26 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:09:24 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' has been recovered (tr. 1-10)
+
+[2026-04-24 02:09:24 #2 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 9464@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:09:24 #3 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:09:24 #4 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:09:24 #5 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:09:24 #6 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:09:24 #7 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:09:24 #8 type] 
+Type domain.Comprador is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:09:35 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 20748@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:09:36 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 02:09:36 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 02:09:36 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:09:36 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 02:09:36 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 02:09:36 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:09:36 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 02:09:36 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:09:36 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 02:09:36 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:09:36 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:09:36 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:09:36 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 02:09:36 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 02:09:36 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 02:09:36 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:14:17 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 20636@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:14:17 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 02:14:17 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 02:14:17 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:14:17 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 02:14:17 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 02:14:17 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:14:17 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 02:14:17 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:14:17 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 02:14:17 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:14:17 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:14:17 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:14:17 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 02:14:17 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 02:14:17 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 02:14:17 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+[2026-04-24 02:15:23 #18 type.registry] 
+New type domain.Contraoferta
+
+[2026-04-24 02:15:23 #19 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:25:39 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' has been recovered (tr. 1-16)
+
+[2026-04-24 02:25:39 #2 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 13140@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:25:40 #3 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:25:40 #4 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:25:40 #5 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:25:40 #6 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:25:40 #7 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:25:40 #8 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:25:40 #9 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:33:42 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' has been recovered (tr. 17-21)
+
+[2026-04-24 02:33:42 #2 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 16180@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:33:42 #3 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:33:42 #4 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:33:42 #5 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:33:42 #6 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:33:42 #7 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:33:42 #8 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:33:42 #9 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:34:10 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 13572@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:34:10 #2 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:34:10 #3 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:34:10 #4 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:34:10 #5 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:34:10 #6 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:34:10 #7 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:34:10 #8 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:35:59 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 13376@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:35:59 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 02:35:59 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 02:35:59 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:35:59 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 02:35:59 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 02:35:59 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:35:59 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 02:35:59 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:35:59 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 02:35:59 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:35:59 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:35:59 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:35:59 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 02:35:59 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 02:35:59 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 02:35:59 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 02:40:27 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 13964@LAPTOP-LTTIHKL6
+
+[2026-04-24 02:40:27 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 02:40:27 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 02:40:27 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 02:40:27 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 02:40:27 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 02:40:27 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 02:40:27 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 02:40:27 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 02:40:27 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 02:40:27 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 02:40:27 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 02:40:27 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 02:40:27 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 02:40:27 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 02:40:27 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 02:40:27 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+[2026-04-24 02:41:40 #18 type.registry] 
+New type domain.Contraoferta
+
+[2026-04-24 02:41:40 #19 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 03:17:26 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 17216@LAPTOP-LTTIHKL6
+
+[2026-04-24 03:17:26 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 03:17:26 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 03:17:26 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 03:17:26 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 03:17:26 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 03:17:26 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 03:17:26 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 03:17:26 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 03:17:26 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 03:17:26 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 03:17:26 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 03:17:26 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 03:17:26 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 03:17:26 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 03:17:26 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 03:17:26 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+[2026-04-24 03:18:30 #18 type.registry] 
+New type domain.Contraoferta
+
+[2026-04-24 03:18:30 #19 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 09:38:55 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 22584@LAPTOP-LTTIHKL6
+
+[2026-04-24 09:38:55 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 09:38:55 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 09:38:55 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 09:38:55 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 09:38:55 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 09:38:55 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 09:38:55 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 09:38:55 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 09:38:55 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 09:38:55 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 09:38:55 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 09:38:55 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 09:38:55 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 09:38:55 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 09:38:55 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 09:38:55 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 10:05:14 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 23488@LAPTOP-LTTIHKL6
+
+[2026-04-24 10:05:14 #2 type.registry] 
+New type domain.Usuario
+
+[2026-04-24 10:05:14 #3 type.registry] 
+New type domain.Seller
+
+[2026-04-24 10:05:14 #4 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 10:05:14 #5 type.registry] 
+New type domain.Comentario
+
+[2026-04-24 10:05:14 #6 type.registry] 
+New type domain.Reporte
+
+[2026-04-24 10:05:14 #7 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 10:05:14 #8 type.registry] 
+New type domain.Sale
+
+[2026-04-24 10:05:14 #9 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 10:05:14 #10 type.registry] 
+New type domain.Comprador
+
+[2026-04-24 10:05:14 #11 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 10:05:14 #12 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 10:05:14 #13 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 10:05:14 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2026-04-24 10:05:14 #15 type.registry] 
+New type java.util.ArrayList<domain.Reporte>
+
+[2026-04-24 10:05:14 #16 type.registry] 
+New type java.util.ArrayList<domain.Comentario>
+
+[2026-04-24 10:05:14 #17 type.registry] 
+New type java.util.ArrayList<domain.Sale>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 10:05:34 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' has been recovered (tr. 1-8)
+
+[2026-04-24 10:05:34 #2 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 7012@LAPTOP-LTTIHKL6
+
+[2026-04-24 10:05:34 #3 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 10:05:34 #4 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 10:05:34 #5 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 10:05:34 #6 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 10:05:34 #7 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 10:05:34 #8 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 10:44:04 #9 type.registry] 
+New type domain.Contraoferta
+
+[2026-04-24 10:44:04 #10 type] 
+Type domain.Contraoferta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-04-24 10:51:45 #1 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' has been recovered (tr. 9-14)
+
+[2026-04-24 10:51:45 #2 store] 
+Database 'C:\Users\ikerr\Downloads\ParteUnai\Market26\src\main\resources\products.temp' is opened by 15968@LAPTOP-LTTIHKL6
+
+[2026-04-24 10:51:45 #3 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-04-24 10:51:45 #4 type] 
+Type domain.Seller is not enhanced.
+
+[2026-04-24 10:51:45 #5 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-04-24 10:51:45 #6 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-04-24 10:51:45 #7 type] 
+Type domain.Sale is not enhanced.
+
+[2026-04-24 10:51:45 #8 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-04-24 10:51:45 #9 type] 
+Type domain.Contraoferta is not enhanced.
+

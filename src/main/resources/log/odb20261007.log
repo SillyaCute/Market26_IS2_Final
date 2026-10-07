@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2026-10-07 19:25:44 #1 store] 
+Database 'C:\Users\White\Documents\EHU\IS2\Market26\src\main\resources\products.temp' is opened by 13892@Femputer-3-
+
+[2026-10-07 19:25:45 #2 type] 
+Type domain.Usuario is not enhanced.
+
+[2026-10-07 19:25:45 #3 type] 
+Type domain.Seller is not enhanced.
+
+[2026-10-07 19:25:45 #4 type] 
+Type domain.Comentario is not enhanced.
+
+[2026-10-07 19:25:45 #5 type] 
+Type domain.Reporte is not enhanced.
+
+[2026-10-07 19:25:45 #6 type] 
+Type domain.Contraoferta is not enhanced.
+
+[2026-10-07 19:25:45 #7 type] 
+Type domain.Sale is not enhanced.
+
+[2026-10-07 19:25:45 #8 type] 
+Type domain.Comprador is not enhanced.
+
+[2026-10-07 19:25:45 #9 type] 
+Type domain.Carrito is not enhanced.
+
+[2026-10-07 19:25:45 #10 type] 
+Type domain.Administrador is not enhanced.
+
