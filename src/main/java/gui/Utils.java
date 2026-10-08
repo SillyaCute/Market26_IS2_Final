@@ -17,6 +17,9 @@ public class Utils {
 	}
 	public static String getStatus(int t) {
 		ArrayList<String> status=getStatus();
-		return status.get(t);
+		if(status.get(t) != null) {
+			return status.get(t);
+		}
+		return null;
 	}
 }

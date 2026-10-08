@@ -66,7 +66,7 @@ public class ComentarGUI extends JFrame {
 		buttonRealizarComentario.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				BLFacade facade = MainGUI.getBusinessLogic();
-				String error = check_fields_Errors();
+				String error = checkFieldsErrors();
 				
 				if(error != null) {
 					lblMostrarError.setText(error);
@@ -99,7 +99,7 @@ public class ComentarGUI extends JFrame {
 		
 	}
 	
-	private String check_fields_Errors() {
+	private String checkFieldsErrors() {
 		try {
 			if((textFieldAsunto.getText().length()==0) || (textFieldComentario.getText().length()==0)  || (textFieldPuntuacion.getText().length()==0))
 				return ResourceBundle.getBundle("Etiquetas").getString("Registrarse.ErrorVacio");

@@ -46,6 +46,7 @@ public class DataAccess  {
 
 	private static final String basePath="src/main/resources/images/";
 	private static final String dbServerDir = "src/main/resources/db/";
+	private final String VENDEDOR = "Vendedor";
 
 
 	ConfigXML c=ConfigXML.getInstance();
@@ -91,11 +92,11 @@ public class DataAccess  {
 		try { 
 	       
 		    //Create sellers 
-			Seller seller1=new Seller("Aitor Fernandez", "seller1@gmail.com","123", "Vendedor");
-			Seller seller2=new Seller("Ane Gaztañaga", "seller2@gmail.com","321", "Vendedor");
-			Seller seller3=new Seller("Test Seller", "seller3@gmail.com", "000", "Vendedor");
-			Seller seller4=new Seller("a", "a@gmail.com", "a", "Vendedor", 200);
-			ofertasBorradas=new Seller("Basura", "basuraBasurez@gmail.com", "basura", "Vendedor");
+			Seller seller1=new Seller("Aitor Fernandez", "seller1@gmail.com","123", VENDEDOR);
+			Seller seller2=new Seller("Ane Gaztañaga", "seller2@gmail.com","321", VENDEDOR);
+			Seller seller3=new Seller("Test Seller", "seller3@gmail.com", "000", VENDEDOR);
+			Seller seller4=new Seller("a", "a@gmail.com", "a", VENDEDOR, 200);
+			ofertasBorradas=new Seller("Basura", "basuraBasurez@gmail.com", "basura", VENDEDOR);
 
 			//Crear comprador
 			Comprador comprador1=new Comprador("b", "b@gmail.com", "b", "Comprador", 200);
@@ -213,7 +214,7 @@ public class DataAccess  {
 		
 		db.getTransaction().begin();
 		
-			if(tipo.equals("Vendedor")) {
+			if(tipo.equals(VENDEDOR)) {
 				Seller nuevoVendedor = new Seller(nombre, correo, contraseña, tipo, saldo);
 				db.persist(nuevoVendedor);
 				System.out.println("Vendedor guardado "+nuevoVendedor);
@@ -469,7 +470,7 @@ public class DataAccess  {
 		    carritoComprador = db.find(Carrito.class, carritoComprador.getIdCarrito());
 
 		    return carritoComprador.getComprasAlmacenadas();
-		}else if(compradorVendedor.getTipo().equals("Vendedor")) {
+		}else if(compradorVendedor.getTipo().equals(VENDEDOR)) {
 			vendedor = db.find(Seller.class, compradorVendedor.getEmail());
 			System.out.println("ola");
 		    return vendedor.getContraofertasRecibidas();
@@ -512,7 +513,7 @@ public class DataAccess  {
 	}
 	
 	public void añadirCarrito(Sale compra, Comprador comprador) {
-		
+		//El grupo no tuvo tiempo de poder realizar la implementacion de este metodo, por ello esta vacio.
 	}
 
 public void open(){

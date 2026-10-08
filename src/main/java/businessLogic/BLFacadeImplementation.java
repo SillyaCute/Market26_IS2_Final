@@ -30,7 +30,7 @@ import java.io.IOException;
  */
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation  implements BLFacade {
-	 private static final int baseSize = 160;
+	 private static final int BASE_SIZE = 160;
 
 		private static final String basePath="src/main/resources/images/";
 	DataAccess dbManager;
@@ -161,7 +161,7 @@ public boolean esUsuarioBaneado(String correo){
 		dbManager.open();
 		dbManager.crearContraoferta(comprador);		
 		dbManager.close();
-};
+}
 
 /**
  * {@inheritDoc}
