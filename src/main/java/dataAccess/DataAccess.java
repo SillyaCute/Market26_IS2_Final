@@ -46,7 +46,7 @@ public class DataAccess  {
 
 	private static final String basePath="src/main/resources/images/";
 	private static final String dbServerDir = "src/main/resources/db/";
-	private final String VENDEDOR = "Vendedor";
+	private static final String VENDEDOR = "Vendedor";
 
 
 	ConfigXML c=ConfigXML.getInstance();
