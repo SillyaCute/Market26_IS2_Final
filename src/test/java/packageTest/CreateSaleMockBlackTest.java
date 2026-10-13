@@ -241,17 +241,26 @@ public class CreateSaleMockBlackTest {
 	public void testGetContraofertas6() {
 		
 		Seller vendedor = null;
+		Comprador comprador = null;
+		Sale ventaContraofertada = null;
+		Contraoferta contraoferta = null;
 		Date data = new Date();
 		File file = null;
 		
 		vendedor = new Seller(sellerName, sellerMail, "megustanlasvacas", "Vendedor", 200);
 		vendedor.addSale("Una vaca", "Dos vacas serian mejor", 0, 100, data, file, 1);
+		comprador = new Comprador(compradorName, compradorMail, "contraseñaSegura", "Comprador", 100);
+		
+		ventaContraofertada = vendedor.getSales().getFirst();
+		contraoferta = new Contraoferta(20, ventaContraofertada, comprador, vendedor);
+		vendedor.getContraofertasRecibidas().add(contraoferta);
+		
 		Mockito.when(db.find(Usuario.class, vendedor.getEmail())).thenReturn(vendedor);
 		Mockito.when(db.find(Seller.class, vendedor.getEmail())).thenReturn(vendedor);
 		
 		try {
 			sut.open();
-			contraofertas = sut.getContraofertas(seller);
+			contraofertas = sut.getContraofertas(vendedor);
 			sut.close();			
 			
 			assertFalse(contraofertas.isEmpty());
@@ -275,7 +284,7 @@ public class CreateSaleMockBlackTest {
 		
 		try {
 			sut.open();
-			contraofertas = sut.getContraofertas(seller);
+			contraofertas = sut.getContraofertas(vendedor);
 			sut.close();			
 			
 			assertTrue(contraofertas.isEmpty());
@@ -285,7 +294,7 @@ public class CreateSaleMockBlackTest {
 			e.printStackTrace();
 		    System.out.println("Error: " + e.getMessage());
 			fail();
-		} 
+		}
 	}
 	
 	@Test //8
