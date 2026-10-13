@@ -174,6 +174,35 @@ public class TestDataAccess {
 			return seller;
     }
 	
+	public Seller crearSellerConContraoferta(String email, String name) {
+		System.out.println(">> TestDataAccess: addSeller");
+		Seller seller=null;
+		Sale compra = null;
+		Contraoferta contraoferta = null;
+		Comprador comprador = null;
+		Date date = new Date();
+		File file = null;
+		
+			db.getTransaction().begin();
+			try {
+				seller=new Seller(name, email, "Rim de Lacent", "Vendedor", 100);
+				compra = new Sale("Una vaca", "Imagina que tuvieras dos vacas", 0, 60, date, file, seller, 1);
+			    seller.getSales().add(compra);
+			    comprador = new Comprador("Comprador Test", "compradorTest@gmail.com", "contraseñaSegura", "Comprador", 100);
+				contraoferta = new Contraoferta(20, compra, comprador, seller);
+				seller.getContraofertasRecibidas().add(contraoferta);
+				db.persist(seller);
+				db.persist(compra);
+				db.persist(contraoferta);
+				db.getTransaction().commit();
+			}
+			catch (Exception e){
+				e.printStackTrace();
+			}
+			return seller;
+    }
+	
+	
 	public boolean removeSellerConVenta(String email) {
 		System.out.println(">> TestDataAccess: removeSeller");
 		Seller d = db.find(Seller.class, email);

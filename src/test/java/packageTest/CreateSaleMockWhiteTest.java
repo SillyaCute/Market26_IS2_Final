@@ -100,7 +100,7 @@ public class CreateSaleMockWhiteTest {
 		persistenceMock.close();
     }
 	
-	@Test //1
+	@Test //El parametro de entrada es un comprador cuyo carrito está vacio
 	public void testGetContraofertas1() {
 
 		comprador = new Comprador(compradorName, compradorMail, "Hatsune Miku", "Comprador", 100);
@@ -122,7 +122,7 @@ public class CreateSaleMockWhiteTest {
 		} 
 	}
 	
-	@Test //2
+	@Test //El parametro entrada es un comprador que ha realizado contraofertas, asi que su carrito no esta vacio
 	public void testGetContraofertas2() {
 		
 		Comprador comprador=null;
@@ -168,7 +168,7 @@ public class CreateSaleMockWhiteTest {
 	}
 	
 	
-	@Test //3
+	@Test //El parametro de entrada es un vendedor
 	public void testGetContraofertas3() {
 		
 		Seller vendedor = null;
@@ -195,7 +195,7 @@ public class CreateSaleMockWhiteTest {
 		}
 	}
 	
-	@Test //4
+	@Test //El parametro de entrada es un usuario, no es comprador ni vendedor
 	public void testGetContraofertas4() {
 		
 		user = new Usuario(userMail, userName);

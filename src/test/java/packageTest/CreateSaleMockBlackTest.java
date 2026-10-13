@@ -100,7 +100,7 @@ public class CreateSaleMockBlackTest {
 	}
    
 	
-	@Test //1
+	@Test //El parametro de entrada es nulo
 	public void testGetContraofertas1() {		
 		comprador = null;
 		try {
@@ -120,7 +120,7 @@ public class CreateSaleMockBlackTest {
 		} 
 	}
 	
-	@Test //2
+	@Test //El correo del comprador no contiene @gmail.com
 	public void testGetContraofertas2() {
 		
 
@@ -146,7 +146,7 @@ public class CreateSaleMockBlackTest {
 		} 
 	}
 	
-	@Test //3
+	@Test //El comprador no esta en la base de datos
 	public void testGetContraofertas3() {		
 		comprador = new Comprador(compradorName, compradorMail, "Soy Teto-Chan", "Comprador", 100);
 		Mockito.when(db.find(Usuario.class, comprador.getEmail())).thenReturn(comprador);
@@ -170,7 +170,7 @@ public class CreateSaleMockBlackTest {
 		} 
 	}
 	
-	@Test //4
+	@Test //El parametro es un comprador que ha realizado una contraoferta
 	public void testGetContraofertas4() {
 		
 		Comprador comprador=null;
@@ -214,7 +214,7 @@ public class CreateSaleMockBlackTest {
 		}
 	}
 	
-	@Test //5
+	@Test //El parametro es un comprador que no ha realizado una contraoferta
 	public void testGetContraofertas5() {
 		
 		comprador = new Comprador(compradorName, compradorMail, "Hatsune Miku", "Comprador", 100);
@@ -237,7 +237,7 @@ public class CreateSaleMockBlackTest {
 		} 
 	}
 	
-	@Test //6
+	@Test //El parametro es un vendedor que ha recibido contraofertas
 	public void testGetContraofertas6() {
 		
 		Seller vendedor = null;
@@ -273,7 +273,7 @@ public class CreateSaleMockBlackTest {
 		}
 	}
 	
-	@Test //7
+	@Test //El parametro es un vendedor que ha recibido contraofertas
 	public void testGetContraofertas7() {
 		
 		Seller vendedor = null;
@@ -297,7 +297,7 @@ public class CreateSaleMockBlackTest {
 		}
 	}
 	
-	@Test //8
+	@Test //El parametro de entrada es un usuario, sin ser comprador o vendedor
 	public void testGetContraofertas8() {
 		
 		user = new Usuario(userMail, userName);

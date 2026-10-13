@@ -65,7 +65,7 @@ public class CreateSaleBDWhiteTest {
 			e.printStackTrace();
 		}	
    }
-	@Test //1
+	@Test //El parametro de entrada es un comprador cuyo carrito está vacio
 	public void testGetContraofertas1() {
 		
 		testDA.open();
@@ -90,7 +90,7 @@ public class CreateSaleBDWhiteTest {
 	    }
 	}
 	
-	@Test //2
+	@Test //El parametro entrada es un comprador que ha realizado contraofertas, asi que su carrito no esta vacio
 	public void testGetContraofertas2() {
 		
 		testDA.open();
@@ -115,11 +115,11 @@ public class CreateSaleBDWhiteTest {
 	    }
 	}
 	
-	@Test //3
+	@Test //El parametro de entrada es un vendedor
 	public void testGetContraofertas3() {
 		
 		testDA.open();
-		seller = testDA.crearSellerConVenta(sellerMail, sellerName);
+		seller = testDA.crearSellerConContraoferta(sellerMail, sellerName);
 		System.out.println(seller);
 		testDA.close();
 		try {
@@ -127,7 +127,7 @@ public class CreateSaleBDWhiteTest {
 			contraofertas = sut.getContraofertas(seller);
 			sut.close();			
 			
-			assertTrue(contraofertas.isEmpty());
+			assertFalse(contraofertas.isEmpty());
 			
 		} catch (Exception e ) { 
 				
@@ -141,7 +141,7 @@ public class CreateSaleBDWhiteTest {
 	    }
 	}
 	
-	@Test //4
+	@Test //El parametro de entrada es un usuario, no es comprador ni vendedor
 	public void testGetContraofertas4() {
 		
 		testDA.open();

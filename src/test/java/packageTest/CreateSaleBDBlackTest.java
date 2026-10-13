@@ -67,7 +67,7 @@ public class CreateSaleBDBlackTest {
 		}	
    }
 	
-	@Test //1
+	@Test ////El parametro de entrada es nulo
 	public void testGetContraofertas1() {		
 		comprador = null;
 		try {
@@ -87,7 +87,7 @@ public class CreateSaleBDBlackTest {
 		} 
 	}
 	
-	@Test //2
+	@Test ////El correo del comprador no contiene @gmail.com
 	public void testGetContraofertas2() {
 		
 		testDA.open();
@@ -115,7 +115,7 @@ public class CreateSaleBDBlackTest {
 	    }
 	}
 	
-	@Test //3
+	@Test //El comprador no esta en la base de datos
 	public void testGetContraofertas3() {		
 		comprador = new Comprador(compradorName, compradorMail, "Soy Teto-Chan", "Comprador", 100);
 		try {
@@ -136,7 +136,7 @@ public class CreateSaleBDBlackTest {
 		} 
 	}
 	
-	@Test //4
+	@Test //El parametro es un comprador que ha realizado una contraoferta
 	public void testGetContraofertas4() {
 		
 		testDA.open();
@@ -161,7 +161,7 @@ public class CreateSaleBDBlackTest {
 	    }
 	}
 	
-	@Test //5
+	@Test //El parametro es un comprador que no ha realizado una contraoferta
 	public void testGetContraofertas5() {
 		
 		testDA.open();
@@ -186,18 +186,18 @@ public class CreateSaleBDBlackTest {
 	    }
 	}
 	
-	@Test //6
+	@Test //El parametro es un vendedor que ha recibido contraofertas
 	public void testGetContraofertas6() {
 		
 		testDA.open();
-		seller = testDA.crearSellerConVenta(sellerMail, sellerName);
+		seller = testDA.crearSellerConContraoferta(sellerMail, sellerName);
 		testDA.close();
 		try {
 			sut.open();
 			contraofertas = sut.getContraofertas(seller);
 			sut.close();			
 			
-			assertTrue(contraofertas.isEmpty());
+			assertFalse(contraofertas.isEmpty());
 			
 		} catch (Exception e ) { 
 				
@@ -211,7 +211,7 @@ public class CreateSaleBDBlackTest {
 	    }
 	}
 	
-	@Test //7
+	@Test //El parametro es un vendedor que no ha recibido contraofertas
 	public void testGetContraofertas7() {
 		
 		testDA.open();
@@ -236,7 +236,7 @@ public class CreateSaleBDBlackTest {
 	    }
 	}
 	
-	@Test //8
+	@Test //El parametro es un usuario, no es comprador ni vendedor
 	public void testGetContraofertas8() {
 		
 		testDA.open();
