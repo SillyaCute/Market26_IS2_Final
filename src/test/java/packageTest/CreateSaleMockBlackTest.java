@@ -110,8 +110,8 @@ public class CreateSaleMockBlackTest {
 			
 			fail();
 			
-		} catch (ParamNullException e ) { 
-			assertTrue(true);
+		/*} catch (ParamNullException e ) { 
+			assertTrue(true);*/
 		} catch (Exception e ) { 
 				
 			e.printStackTrace();
@@ -136,8 +136,8 @@ public class CreateSaleMockBlackTest {
 			//El codigo solo funciona con correos @gmail.com en teoria, asi que getContraofertas deberia fallar
 			fail(); 
 		
-		} catch (NoGmailException e ) { 
-			assertTrue(true);
+		/*} catch (NoGmailException e ) { 
+			assertTrue(true);*/
 		} catch (Exception e ) { 
 				
 			e.printStackTrace();
@@ -159,8 +159,8 @@ public class CreateSaleMockBlackTest {
 			
 			fail();
 			
-		} catch (NotInDBException e ) { 
-			assertTrue(true);
+		/*} catch (NotInDBException e ) { 
+			assertTrue(true);*/
 		} catch (Exception e ) { 
 				
 			e.printStackTrace();
