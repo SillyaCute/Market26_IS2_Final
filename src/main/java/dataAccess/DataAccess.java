@@ -459,6 +459,7 @@ public class DataAccess  {
 		Carrito carritoComprador;
 		
 		compradorVendedor = db.find(Usuario.class, compradorVendedor.getEmail());
+		System.out.println(compradorVendedor);
 		if(compradorVendedor.getTipo().equals("Comprador")) {
 
 		    comprador = db.find(Comprador.class, compradorVendedor.getEmail());
