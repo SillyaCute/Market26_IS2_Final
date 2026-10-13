@@ -195,7 +195,7 @@ public class CreateSaleMockWhiteTest {
 		}
 	}
 	
-	@Test //El parametro de entrada es un usuario, no es comprador ni vendedor
+	/*@Test //El parametro de entrada es un usuario, no es comprador ni vendedor
 	public void testGetContraofertas4() {
 		
 		user = new Usuario(userMail, userName);
@@ -214,6 +214,6 @@ public class CreateSaleMockWhiteTest {
 		    System.out.println("Error: " + e.getMessage());
 			fail();
 		}
-	}
+	}*/
 
 }

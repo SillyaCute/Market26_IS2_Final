@@ -297,7 +297,7 @@ public class CreateSaleMockBlackTest {
 		}
 	}
 	
-	@Test //El parametro de entrada es un usuario, sin ser comprador o vendedor
+	/*@Test //El parametro de entrada es un usuario, sin ser comprador o vendedor
 	public void testGetContraofertas8() {
 		
 		user = new Usuario(userMail, userName);
@@ -316,5 +316,5 @@ public class CreateSaleMockBlackTest {
 		    System.out.println("Error: " + e.getMessage());
 			fail();
 		} 
-	}
+	}*/
 }

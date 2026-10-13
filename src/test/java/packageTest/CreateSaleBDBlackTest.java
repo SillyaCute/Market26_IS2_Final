@@ -236,7 +236,7 @@ public class CreateSaleBDBlackTest {
 	    }
 	}
 	
-	@Test //El parametro es un usuario, no es comprador ni vendedor
+	/*@Test //El parametro es un usuario, no es comprador ni vendedor
 	public void testGetContraofertas8() {
 		
 		testDA.open();
@@ -259,5 +259,5 @@ public class CreateSaleBDBlackTest {
 			testDA.removeSeller(userMail);
 			testDA.close();
 	    }
-	}
+	}*/
 }

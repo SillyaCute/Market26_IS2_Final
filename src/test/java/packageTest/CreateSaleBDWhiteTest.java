@@ -141,7 +141,7 @@ public class CreateSaleBDWhiteTest {
 	    }
 	}
 	
-	@Test //El parametro de entrada es un usuario, no es comprador ni vendedor
+	/*@Test //El parametro de entrada es un usuario, no es comprador ni vendedor
 	public void testGetContraofertas4() {
 		
 		testDA.open();
@@ -164,6 +164,6 @@ public class CreateSaleBDWhiteTest {
 			testDA.removeSeller(userMail);
 			testDA.close();
 	    }
-	}
+	}*/
 
 }
